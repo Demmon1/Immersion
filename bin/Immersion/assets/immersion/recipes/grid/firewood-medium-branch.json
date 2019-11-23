@@ -1,10 +1,11 @@
 {
-	ingredientPattern: "A	L",
+	enabled: false,
+  ingredientPattern: "A	L",
 	ingredients: {
 		"A": { type: "item", code: "game:axe-*", isTool: true  },
 		"L": { type: "block", code: "immersion:branch-medium-*" }
 	},
 	width: 1,
 	height: 2,
-	output: { type: "item", code: "game:firewood", quantity: 4  }
+	output: { type: "item", code: "game:firewood", quantity: 2  }
 }

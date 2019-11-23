@@ -1,5 +1,23 @@
-# Immersion
+# Immersion - Demmon1's Tweaks
 
-[![Downloads](https://img.shields.io/github/downloads/TonyLiberatto/Immersion/total?style=for-the-badge)](https://github.com/TonyLiberatto/Immersion/releases)
+Forked from the original Immersion mod for greater control over my experience with it while maintaining a convenient update pipeline.
 
-[![Buy me a coffee](https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png)](https://www.buymeacoffee.com/LT6jNpWMI)
+Complete list of tweaks:
+
+-Removed "Giant Arundo Reeds" from the world generation.
+
+-Removed crafting recipe for "burden baskets".
+
+-Primitive Fence Midsection recipe now uses "Very Thin" branches. (Obsolete)
+
+-Increase inventory size of bamboo chests to 24 (was 16).
+
+-Restore vanilla ore deposit distribution. (Obsolete)
+
+-Restore vanilla stone path shape
+
+-Reduce firewood crafting recipes to "Vanilla-like" scale
+
+-Debuff "lump of fat" to give only 100 satiety
+
+-Restore vanilla saturation values
