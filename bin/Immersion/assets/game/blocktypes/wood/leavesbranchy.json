@@ -51,6 +51,7 @@
 			type: "item",
 			code: "stick",
 			quantity: { avg: 0, var: 0 },
+
 		},
 		{ 
 			type: "block", 

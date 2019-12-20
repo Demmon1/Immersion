@@ -1,0 +1,31 @@
+{
+	code: "dryfruit",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro" ] },
+	],
+	attributes: {
+		nutritionPropsWhenInMeal: { 
+			satietyByType:  { 
+				"*-saguaro": 180, 
+				"*-cranberry": 180,
+				"*":  240 
+			},
+			foodcategory: "Fruit" 
+		},
+	},
+	texture: { base: "immersion:item/food/dryfruit/{type}" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	nutritionPropsByType: {
+		"*-saguaro": { satiety: 120, foodcategory: "Fruit" },
+		"*-cranberry": { satiety: 120, foodcategory: "Fruit" },
+		"*": { satiety: 160, foodcategory: "Fruit" }
+	},
+	transitionableProps: [{
+		type: "Perish",
+		freshHours: { avg: 8760 },
+		spoilHours: { avg: 4380 },
+		transitionedStack: { type: "item", code: "rot" },
+		transitionRatio: 0.25
+	}],
+}
