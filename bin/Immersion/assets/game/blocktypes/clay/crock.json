@@ -15,6 +15,7 @@
 	],
 	attributesByType: {
 		"*-burned-*": {
+			shelvable: true,
 			mealContainer: true,
 			mealBlockCode: "crock-{color}-burned-east",
 			servingCapacity: 4,
