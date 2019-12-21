@@ -21,7 +21,10 @@
 			bowlContents: null,
 			handleLiquidContainerInteract: true,
 			handleCookingContainerInteract: true
-		},	
+		},
+		"*": {
+			shelvable: true,
+		}
 	},
 	combustiblePropsByType: {
 		"*-raw-*": {
